@@ -1,0 +1,31 @@
+# Restries de pinos
+NET "clock" LOC = V10;          # Substitua "P1" pela localizao real do pino do relgio
+
+NET "selector[0]" LOC = N16;        # Pino para o controle do display
+NET "selector[1]" LOC = N15;        
+NET "selector[2]" LOC = P18;        
+NET "selector[3]" LOC = P17;        
+
+
+NET "d0[0]" LOC = L14;       # Sada do segmento a
+NET "d0[1]" LOC = N14;       # Sada do segmento b
+NET "d0[2]" LOC = M14;       # Sada do segmento c
+NET "d0[3]" LOC = U18;       # Sada do segmento d
+NET "d0[4]" LOC = U17;       # Sada do segmento e
+NET "d0[5]" LOC = T18;       # Sada do segmento f
+NET "d0[6]" LOC = T17;       # Sada do segmento g
+
+NET "botaoA" LOC = C4;
+NET "botaoB" LOC = D9;
+NET "botaoC" LOC = A8;
+NET "botaoD" LOC = C9;
+NET "botaoE" LOC = B8;
+
+NET "led" LOC = U16;
+NET "led" LOC = V16;
+NET "led" LOC = U15;
+NET "led" LOC = V15;
+NET "led" LOC = M11;
+NET "led" LOC = N11;
+NET "led" LOC = R11;
+NET "led" LOC = T11;
