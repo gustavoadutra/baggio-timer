@@ -15,11 +15,17 @@ NET "d0[4]" LOC = U17;       # Sada do segmento e
 NET "d0[5]" LOC = T18;       # Sada do segmento f
 NET "d0[6]" LOC = T17;       # Sada do segmento g
 
-NET "botaoA" LOC = C4;
-NET "botaoB" LOC = D9;
-NET "botaoC" LOC = A8;
-NET "botaoD" LOC = C9;
+NET "botaoA" LOC = A8;
+NET "botaoB" LOC = C9;
+NET "botaoC" LOC = D9;
+NET "botaoD" LOC = C4;
 NET "botaoE" LOC = B8;
+
+#NET "botaoA" LOC = C4;
+#NET "botaoB" LOC = D9;
+#NET "botaoC" LOC = A8;
+#NET "botaoD" LOC = C9;
+#NET "botaoE" LOC = B8;
 
 NET "led" LOC = U16;
 NET "led" LOC = V16;
